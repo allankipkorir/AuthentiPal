@@ -1,0 +1,93 @@
+html {
+    height: 100%;
+    width: 100%;   
+}
+
+body {
+    background-color: #EFEBEA;
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+h6 {
+    font-family: 'Montserrat';
+}
+
+.navBarDiv {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+}
+
+.navHeader{
+    font-family: 'Michroma';
+    text-decoration: none;
+    color: black;
+}
+
+.navHeader:hover {
+    color: black;
+}
+
+.navBarOptions {
+    float:right;
+}
+
+.navBarOption {
+    font-family: 'Michroma';
+    color: black;
+    display: inline-block;
+    border-bottom: 1px solid #EFEBEA;
+}
+
+.navBarOption:hover {
+    border-bottom: 1px solid currentColor;
+}
+
+.landingPageBgDiv {
+    float: right;
+    height: 80%;
+    width: 50%;
+    clear:both;
+}
+
+.landingPageBg {
+    float: right;
+    height: 80%;
+    width: 85%;
+    margin-top: 10%;
+    margin-right: 20%;
+}
+
+.introDetails {
+    float: left;
+    height: 50%;
+    width: 30%;
+    margin-top: 15%;
+    margin-left: 5%;
+    font-family: 'Michroma';
+}
+
+.changingSpan:before {
+    content: 'Shop Reliably';
+    animation: animate infinite 9s linear;
+}
+
+@keyframes animate {
+    25%
+    {
+        content: 'Shop Fast';
+    }
+    50%
+    {
+        content: 'Shop Securely';
+    }
+    75%
+    {
+        content: 'Buy Safe';
+    }
+}
