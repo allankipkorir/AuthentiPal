@@ -35,6 +35,7 @@ h6 {
 
 .navBarOptions {
     float:right;
+    cursor: pointer;
 }
 
 .navBarOption {
@@ -50,17 +51,17 @@ h6 {
 
 .landingPageBgDiv {
     float: right;
-    height: 80%;
+    height: 60%;
     width: 50%;
     clear:both;
 }
 
 .landingPageBg {
     float: right;
-    height: 80%;
+    height: 100%;
     width: 85%;
     margin-top: 10%;
-    margin-right: 20%;
+    margin-right: 15%;
 }
 
 .introDetails {
@@ -72,22 +73,19 @@ h6 {
     font-family: 'Michroma';
 }
 
-.changingSpan:before {
-    content: 'Shop Reliably';
-    animation: animate infinite 9s linear;
+.launchButton {
 }
 
-@keyframes animate {
-    25%
-    {
-        content: 'Shop Fast';
-    }
-    50%
-    {
-        content: 'Shop Securely';
-    }
-    75%
-    {
-        content: 'Buy Safe';
-    }
+.launchButton:hover,
+.launchButton:focus {
+    transform: scale(1.01)
+}
+
+.launchButton:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+.launchButton:active {
+    transform: scale(0.99);
 }
