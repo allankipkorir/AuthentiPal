@@ -66,19 +66,39 @@ h6 {
 
 .introDetails {
     float: left;
-    height: 50%;
+    height: 45%;
     width: 30%;
     margin-top: 15%;
     margin-left: 5%;
     font-family: 'Michroma';
 }
 
+.launchButtonDiv {
+    float: bottom;
+    clear:both;
+    height: 70px;   
+}
+
 .launchButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Michroma';
+    color: white;
+    background-color: black;
+    width: 30%;
+    height: 80%;
+    margin: auto;
+    float: top;
+    margin-bottom: 30%;
+    border-radius: 6px;
 }
 
 .launchButton:hover,
 .launchButton:focus {
-    transform: scale(1.01)
+    transform: scale(1.005)
 }
 
 .launchButton:focus {
@@ -87,5 +107,5 @@ h6 {
 }
 
 .launchButton:active {
-    transform: scale(0.99);
+    transform: scale(0.995);
 }
