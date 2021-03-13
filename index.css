@@ -1,20 +1,21 @@
-html {
-    height: 100%;
-    width: 100%;   
-}
-
 body {
     background-color: #EFEBEA;
     height: 100%;
     width: 100%;
 }
 
+h3 {
+    font-family: 'Michroma';
+    text-decoration: none;
+    color: black;
+}
+
 a {
     text-decoration: none;
 }
 
-h6 {
-    font-family: 'Montserrat';
+img {
+    margin: 6% 4% 4% 6%;
 }
 
 .navBarDiv {
@@ -49,63 +50,14 @@ h6 {
     border-bottom: 1px solid currentColor;
 }
 
-.landingPageBgDiv {
-    float: right;
-    height: 60%;
-    width: 50%;
-    clear:both;
-}
-
-.landingPageBg {
-    float: right;
-    height: 100%;
-    width: 85%;
-    margin-top: 10%;
-    margin-right: 15%;
-}
 
 .introDetails {
-    float: left;
     height: 45%;
-    width: 30%;
-    margin-top: 15%;
-    margin-left: 5%;
+    margin-top: 30%;
+    margin-left: 20%;
     font-family: 'Michroma';
-}
-
-.launchButtonDiv {
-    float: bottom;
-    clear:both;
-    height: 70px;   
 }
 
 .launchButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 13px;
-    font-family: 'Michroma';
-    color: white;
-    background-color: black;
-    width: 30%;
-    height: 80%;
-    margin: auto;
-    float: top;
-    margin-bottom: 30%;
-    border-radius: 6px;
-}
-
-.launchButton:hover,
-.launchButton:focus {
-    transform: scale(1.005)
-}
-
-.launchButton:focus {
-    outline: 1px solid #fff;
-    outline-offset: -4px;
-}
-
-.launchButton:active {
-    transform: scale(0.995);
+    height: 150%;
 }
