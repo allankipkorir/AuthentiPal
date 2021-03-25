@@ -4,15 +4,20 @@ body {
     width: 100%;
 }
 
-h3 {
+h3, h4 {
     font-family: 'Michroma';
     text-decoration: none;
     color: black;
 }
 
 a {
+    color: black;
     text-decoration: none;
 }
+
+a:hover {
+    color: black;
+ }
 
 img {
     margin: 6% 2% 2% 6%;
