@@ -75,20 +75,20 @@ img {
 
 @font-face {
     font-family: 'Elianto';
-    src: url("Elianto-Regular.otf") format("opentype");
+    src: url("CustomFonts/Elianto-Regular.otf") format("opentype");
 }
 
 @font-face {
     font-family: 'Mosk';
-    src: url("Mosk Typeface/Mosk Normal 400.ttf") format("truetype");
+    src: url("CustomFonts/Mosk Typeface/Mosk Normal 400.ttf") format("truetype");
 }
 
 @font-face {
     font-family: 'Quantico';
-    src: url("Quantico/Quantico-Regular.ttf") format("truetype");
+    src: url("CustomFonts/Quantico/Quantico-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: 'Allerta';
-    src: url("Allerta/Allerta-Regular.ttf") format("truetype");
+    src: url("CustomFonts/Allerta/Allerta-Regular.ttf") format("truetype");
 }
