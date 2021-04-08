@@ -4,8 +4,12 @@ body {
     width: 100%;
 }
 
-h3, h4 {
-    font-family: 'Michroma';
+h3 {
+    font-family: 'Quantico';
+}
+
+h4 {
+    font-family: 'Elianto';
     text-decoration: none;
     color: black;
 }
@@ -30,7 +34,7 @@ img {
 }
 
 .navHeader{
-    font-family: 'Michroma';
+    font-family: 'Quantico';
     text-decoration: none;
     color: black;
 }
@@ -45,7 +49,7 @@ img {
 }
 
 .navBarOption {
-    font-family: 'Michroma';
+    font-family: 'Quantico';
     color: black;
     display: inline-block;
     border-bottom: 1px solid #EFEBEA;
@@ -60,9 +64,31 @@ img {
     height: 45%;
     margin-top: 30%;
     margin-left: 20%;
-    font-family: 'Michroma';
+    font-family: 'Mosk';
+    font-size: large;
 }
 
 .launchButton {
+    font-family: 'Quantico';
     height: 150%;
+}
+
+@font-face {
+    font-family: 'Elianto';
+    src: url("Elianto-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Mosk';
+    src: url("Mosk Typeface/Mosk Normal 400.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Quantico';
+    src: url("Quantico/Quantico-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Allerta';
+    src: url("Allerta/Allerta-Regular.ttf") format("truetype");
 }
