@@ -15,22 +15,25 @@
         <link href="index.css" rel="stylesheet">
 
         <script src="index.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     </head>
-    <body>
+    <body class="h-100">
 
         <div class="navBarDiv">
             <img src="Assets\Images\LogoPNG_NoMargins.png" width="50px" height="50px" style="margin-right: 10px; margin-left: 0; margin-top: 0; margin-bottom: 8px">
             <a class="navHeader h3" href="index.html">AuthentiPal</a>
 
-            <ul class="list-inline navBarOptions">
-                <li class="list-inline-item navBarOption h7"><a href="howitworks.html">How it Works</a></li>
-                <li class="list-inline-item navBarOption h7"><a href="howitworks.html">FAQ</a></li>
-                <li class="list-inline-item navBarOption h7"><a href="https://183f34b1.kickoffpages.com/">Join Waitlist</a></li>
-            </ul>
+            <div id="navbarText">
+                <ul class="navbar-nav list-inline navBarOptions">
+                    <li class="list-inline-item navBarOption h7"><a href="howitworks.html">How it Works</a></li>
+                    <li class="list-inline-item navBarOption h7"><a href="howitworks.html">FAQ</a></li>
+                    <li class="list-inline-item navBarOption h7"><a href="https://183f34b1.kickoffpages.com/">Join Waitlist</a></li>
+                </ul>
+            </div>
         </div>
 
-        <div class="container-fluid h-75">
-            <div id="carouselExampleDark" class="carousel carousel-dark slide h-100" data-bs-ride="carousel">
+        <div class="container h-75 pt-5">
+            <div id="carouselExampleDark" class="carousel carousel-dark h-100" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -40,72 +43,69 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
                         <div class="row container">
-                          <div class="col-lg-6"> 
-                            <div class="introDetails">
-                                <h3> Shop
+                          <div class="col-lg-6 col-md-12 col-sm-12"> 
+                            <div class="container pt-5">
+                                <h3 class="text-center"> Shop
                                     <a class="typewrite" data-period="2000"
                                     data-type='[ " Safely", " Confidently", " Fast", " Legit." ]'>
                                       <span class="wrap"></span>
                                     </a>
                                 </h3>
                                 <br>
-                                <h6>
+                                <p class="text-center">
                                     Get your sneakers authenticated by our
                                     powerful AI system and expert team of authenticators.
-                                </h6>
+                                </p>
                             </div>
                           </div>
-                          <div class="col-lg-6"> 
-                            <img src="Assets\Images\landingPageBg.png" width="100%" height="90%">
+                          <div class="col-lg-6 col-md-12 col-sm-12"> 
+                            <img src="Assets\Images\landingPageBg.png" class="img-fluid">
                           </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="5500">
+                        <div class="row">
+                            <div class="col-lg-6"> 
+                                <img src="Assets\Images\landingPageBg.png" class="img-fluid">
+                            </div>
+                            <div class="col-lg-6"> 
+                                <p class="text-center">
+                                    Does the sneaker’s price seem too good to be true?
+                                    Is the seller pressuring you to make a purchase?
+                                    Do the labels seem a bit off? <br>
+                                    Do the product’s pictures look poor in quality?
+                                    Is the box damaged?
+                                    Or do you just need a sanity check?
+                
+                                    <br><br>
+                
+                                    Hmm... That’s weird. But not to worry. AuthentiPal got you.
+                                    Our authentication service will take the burden off of you.
+                                </p>
+                            </div>
                         </div>
                     </div>
 
                     <div class="carousel-item" data-bs-interval="5500">
                         <div class="row container">
                             <div class="col-lg-6"> 
-                                <img src="Assets\Images\landingPageBg.png" width="100%" height="90%">
+                                <img src="Assets\Images\landingPageBg.png" class="img-fluid">
                             </div>
                             <div class="col-lg-6"> 
-                                <div class="introDetails">
-                                    <h6>
-                                        + Does the sneaker’s price seem too good to be true? <br>
-                                        + Is the seller pressuring you to make a purchase? <br>
-                                        + Do the labels seem a bit off? <br>
-                                        + Do the product’s pictures look poor in quality? <br>
-                                        + Is the box damaged? <br>
-                                        + Or do you just need a sanity check? <br> 
-                    
-                                        <br> <br> <br> 
-                    
-                                        Hmm... That’s weird. But not to worry. AuthentiPal got you.
-                                        Our free authentication service will take the burden off of you.
-                                        
-                                    </h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item" data-bs-interval="5500">
-                        <div class="row container">
-                            <div class="col-lg-6"> 
-                                <img src="Assets\Images\landingPageBg.png" width="100%" height="90%">
-                            </div>
-                            <div class="col-lg-6"> 
-                                <div class="introDetails">
-                                    <h3>Who Uses AuthentiPal?</h3>
-                                    <h6>
-                                      •	Sneaker Collectors <br>
+                                <div>
+                                    <h3 class="text-center">Who Uses AuthentiPal?</h3>
+                                    <p class="text-center">
+                                        •	Sneaker Collectors <br>
                                       •	Sneaker Resellers <br>
                                       • Retailers <br>
                     
-                                      <br> <br> <br> 
+                                      <br>
                     
                                       If you are buying or selling on EBay, Instagram, Depop,
                                       or any other platform, “AuthentiPal” helps you make a safer
                                       and more informed decision.
-                                    </h6>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -114,21 +114,21 @@
                     <div class="carousel-item" data-bs-interval="5500">
                         <div class="row container">
                             <div class="col-lg-6"> 
-                                <img src="Assets\Images\landingPageBg.png" width="100%" height="90%">
+                                <img src="Assets\Images\landingPageBg.png" class="img-fluid">
                             </div>
                             <div class="col-lg-6"> 
                                 <div class="introDetails">
-                                    <h3>Here’s what our customers think...</h3>
+                                    <h3 class="text-center">Here’s what our customers think...</h3>
                                     <br>
-                                    <h6>
-                                      “Cool stuff” 
+                                    <p class="text-center">
+                                        “Cool stuff” 
                                       Adrian
                     
-                                      <br> <br> <br> 
+                                      <br><br><br> 
                                       
                                       “Corporal Tanui!!”
                                       Tanui
-                                    </h6>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -138,11 +138,101 @@
             </div>
         </div>
 
-        <div class="launchButtonDiv">
+        <div class="container pt-4">
             <div class="d-grid gap-3 col-4 mx-auto bottom">
               <button class="btn btn-outline-dark launchButton" type="button" onclick="location.href ='https://183f34b1.kickoffpages.com/'">Join Waitlist</button>
             </div>
-          </div>
+        </div>
+
+        <br><br><br>
+
+        <!-- Why AuthentiPal? -->
+        <div class="container px-4">
+
+            <h2 class="text-center">Why Authentipal?</h2>
+
+            <!-- for sellers -->
+            <br><br>
+            <div class="row gx-4">
+
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <img src="Assets\Images\graphic1.png" class="img-fluid">
+                </div>
+
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <br>
+                    <h3>For Sellers</h3>
+
+                    <br>
+                    <h5>Build trust and sell with confidence</h5>
+                    <br>
+                    
+                    <p>Boost your business and gain new customers by selling guaranteed authentic products. Let’s protect the brands we love together! <br><br>
+
+                    If a buyer asks, just send them the QR code and they can confirm authenticity
+                    (in case of fraud, we have to have a way to show the person is the legitimate owner of the QR code)</p>
+                    <br>
+
+                    <h5>More sales, more profit!</h5>
+                    <br>
+                    
+                    <p>Avoid added fees and slower shipping times, by selling directly to your customers with proven authenticity. We know, the fees can be too much fam!</p>
+                    <br>
+
+                    <h5>Faster and affordable authentication service</h5>
+                    <br>
+                    
+                    <p>AuthentiPal provides faster and cheaper authentications to help you make safer decisions when buying sneakers. Plus you get to save for other things (aka shipping costs)</p>
+                    <br>
+                    
+                    <h5>Peace of mind for your buyers</h5>
+                    <br>
+                    
+                    <p>Let’s help you bring peace of mind to your customers. AuthentiPal offers an authenticity certificate and a unique authentication code, with every authentication, which shows a history of the sneaker’s authentications and pictures.<br><br>
+                    You can easily display your unique authentication code on your website or share it with your customer, whenever they ask. 
+                    </p>
+
+                </div>
+            </div>
+
+            <!-- for buyers -->
+            <br><br>
+            <div class="row gx-4">
+
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <img src="Assets\Images\graphic1.png" class="img-fluid">
+                </div>
+
+                <div class="col-lg-6 col-md-12 col-sm-12 rightCol">
+                    <br>
+                    <h3>For Buyers</h3>
+                    
+                    <br>
+                    <h5>Peace of mind</h5>
+                    <br>
+
+                    You can step better, knowing your sneaker collection is legit and in check <br>
+                    Plus we offer a certificate of authenticity, with every authentication to  showcase your authentic collection</p>
+                    <br>
+
+                    <h5>Affordable, reliable and faster  authentications! </h5>
+                    <br>
+                    
+                    <p>We legit check your sneakers faster, and for an affordable fee. Try us and see for yourself.</p>
+                    <br>
+
+                    <h5>Shop safely and confidently.</h5>
+                    <br>
+                    
+                    <p>Avoid added fees and slow shipping times when you shop with our trusted retailers and resellers, who pre-authenticate all items with us before listing them for sale.<br>
+                    Alternatively, if you are shopping on other platforms, you can easily and quickly  authenticate with us to make a safer, more informed decision (or claim that refund).
+                    </p>
+                    <br>
+                </div>
+
+            </div>
+
+        </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     </body>

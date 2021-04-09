@@ -4,13 +4,12 @@ body {
     width: 100%;
 }
 
-h3 {
-    font-family: 'Quantico';
+p {
+    font-family: 'Mosk';
 }
 
-h4 {
-    font-family: 'Elianto';
-    text-decoration: none;
+h2, h3, h4, h5 {
+    font-family: 'Quantico';
     color: black;
 }
 
@@ -60,17 +59,18 @@ img {
 }
 
 
-.introDetails {
-    height: 45%;
-    margin-top: 30%;
-    margin-left: 20%;
-    font-family: 'Mosk';
-    font-size: large;
-}
-
 .launchButton {
     font-family: 'Quantico';
-    height: 150%;
+}
+
+.howitWorksText {
+    font-family: 'Mosk';
+    font-size: 24px;
+    margin-top: 40%;
+}
+
+.rightCol {
+    padding-left: 5%;
 }
 
 @font-face {
