@@ -18,15 +18,25 @@
     </head>
     <body>
 
-        <div class="navBarDiv">
-            <img src="Assets\Images\LogoPNG_NoMargins.png" width="50px" height="50px" style="margin-right: 10px; margin-left: 0; margin-top: 0; margin-bottom: 8px">
-            <a class="navHeader h3" href="index.html">AuthentiPal</a>
-
-            <ul class="list-inline navBarOptions">
-                <li class="list-inline-item navBarOption h7"><a href="howitworks.html">How it Works</a></li>
-                <li class="list-inline-item navBarOption h7"><a href="https://183f34b1.kickoffpages.com/">Join Waitlist</a></li>
-            </ul>
-        </div>
+        <nav class="navbar navbar-expand-md navbar-light p-3">
+            <div class="container-fluid">
+                <img src="Assets\Images\LogoPNG_NoMargins.png" width="50px" height="50px" style="margin-right: 10px; margin-left: 0; margin-top: 0; margin-bottom: 8px">
+                <a class="navbar-brand abs navHeader" href="index.html">AuthentiPal</a>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="collapseNavbar">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item navBarOption">
+                            <a class="nav-link" href="howitworks.html" data-bs-target="#myModal" data-bs-toggle="modal1">How it Works</a>
+                        </li>
+                        <li class="nav-item navBarOption">
+                            <a class="nav-link" href="https://183f34b1.kickoffpages.com/" data-bs-target="#myModal" data-bs-toggle="modal3">Join Waitlist</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
         <div class="container h-75">
             <div class="row container">

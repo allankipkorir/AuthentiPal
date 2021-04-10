@@ -8,6 +8,7 @@ p {
     font-family: 'Mosk';
 }
 
+
 h2, h3, h4, h5 {
     font-family: 'Quantico';
     color: black;
@@ -26,25 +27,8 @@ img {
     margin: 6% 2% 2% 6%;
 }
 
-.navBarDiv {
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 3%;
-}
-
 .navHeader{
     font-family: 'Quantico';
-    text-decoration: none;
-    color: black;
-}
-
-.navHeader:hover {
-    color: black;
-}
-
-.navBarOptions {
-    float:right;
-    cursor: pointer;
 }
 
 .navBarOption {
