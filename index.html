@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="h-100">
+<html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,45 +17,47 @@
         <script src="index.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     </head>
-    <body class="h-100">
+    <body>
 
-        <nav class="navbar navbar-expand-md navbar-light p-3">
-            <div class="container-fluid">
-                <img src="Assets\Images\LogoPNG_NoMargins.png" width="50px" height="50px" style="margin-right: 10px; margin-left: 0; margin-top: 0; margin-bottom: 8px">
-                <a class="navbar-brand abs navHeader" href="index.html">AuthentiPal</a>
-                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse" id="collapseNavbar">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item navBarOption">
-                            <a class="nav-link" href="howitworks.html" data-bs-target="#myModal" data-bs-toggle="modal1">How it Works</a>
-                        </li>
-                        <li class="nav-item navBarOption">
-                            <a class="nav-link" href="faq.html" data-bs-target="#myModal" data-bs-toggle="modal2">FAQ</a>
-                        </li>
-                        <li class="nav-item navBarOption">
-                            <a class="nav-link" href="https://183f34b1.kickoffpages.com/" data-bs-target="#myModal" data-bs-toggle="modal3">Join Waitlist</a>
-                        </li>
-                    </ul>
+        <div class="container vh-100">
+
+            <nav class="navbar navbar-expand-md navbar-light p-lg-4 p-md-4 p-sm-2">
+                <div class="container-fluid">
+                    <div class="p-2" style="height: 50px; width: 50px">
+                        <img class="img-fluid" src="Assets\Images\LogoPNG_NoMargins.png" onclick="location.href='index.html'">
+                    </div>
+                    <a class="navbar-brand abs navHeader" href="index.html">AuthentiPal</a>
+                    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse" id="collapseNavbar">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item navBarOption">
+                                <a class="nav-link" href="howitworks.html" data-bs-target="#myModal" data-bs-toggle="modal1">How it Works</a>
+                            </li>
+                            <li class="nav-item navBarOption">
+                                <a class="nav-link" href="faq.html" data-bs-target="#myModal" data-bs-toggle="modal2">FAQ</a>
+                            </li>
+                            <li class="nav-item navBarOption">
+                                <a class="nav-link" href="https://183f34b1.kickoffpages.com/" data-bs-target="#myModal" data-bs-toggle="modal3">Join Waitlist</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
 
-
-        <div class="container h-75 pt-5">
-            <div id="carouselExampleDark" class="carousel carousel-dark h-100" data-bs-ride="carousel">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide h-75" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"></button>
-                  </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000">
-                        <div class="row container">
-                          <div class="col-lg-6 col-md-12 col-sm-12"> 
-                            <div class="container pt-5">
+                </div>
+                <div class="carousel-inner h-100">
+                    <div class="carousel-item active h-100 pt-5" data-bs-interval="10000">
+                        <div class="row h-100">
+                          <div class="col-lg-5 col-md-12 col-sm-12 pt-lg-5 mt-lg-5"> 
+                            <div class="container pt-lg-5">
                                 <h3 class="text-center"> Shop
                                     <a class="typewrite" data-period="2000"
                                     data-type='[ " Safely", " Confidently", " Fast", " Legit." ]'>
@@ -69,27 +71,27 @@
                                 </p>
                             </div>
                           </div>
-                          <div class="col-lg-6 col-md-12 col-sm-12"> 
-                            <img src="Assets\Images\landingPageBg.png" class="img-fluid">
+                          <div class="col-lg-7 col-md-12 col-sm-12 h-100 p-4"> 
+                            <img src="Assets\Images\landingPageBg.png" class="img-fluid h-lg-100 h-md-100 h-sm-100 m-0">
                           </div>
                         </div>
                     </div>
 
                     <div class="carousel-item" data-bs-interval="5500">
                         <div class="row">
-                            <div class="col-lg-6"> 
-                                <img src="Assets\Images\landingPageBg.png" class="img-fluid">
+                            <div class="col-lg-7 col-md-12 col-sm-12 h-100 p-4">
+                                <img src="Assets\Images\landingPageBg.png" class="img-fluid m-0">
                             </div>
-                            <div class="col-lg-6"> 
+                            <div class="col-lg-5 col-md-12 col-sm-12 pt-lg-5 mt-lg-5"> 
                                 <p class="text-center">
                                     Does the sneaker’s price seem too good to be true?
                                     Is the seller pressuring you to make a purchase?
-                                    Do the labels seem a bit off? <br>
+                                    Do the labels seem a bit off?
                                     Do the product’s pictures look poor in quality?
                                     Is the box damaged?
                                     Or do you just need a sanity check?
                 
-                                    <br><br>
+                                    <br>
                 
                                     Hmm... That’s weird. But not to worry. AuthentiPal got you.
                                     Our authentication service will take the burden off of you.
@@ -99,19 +101,17 @@
                     </div>
 
                     <div class="carousel-item" data-bs-interval="5500">
-                        <div class="row container">
-                            <div class="col-lg-6"> 
-                                <img src="Assets\Images\landingPageBg.png" class="img-fluid">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-12 col-sm-12 h-100 p-4"> 
+                                <img src="Assets\Images\landingPageBg.png" class="img-fluid m-0">
                             </div>
-                            <div class="col-lg-6"> 
+                            <div class="col-lg-5 col-md-12 col-sm-12 pt-lg-5 mt-lg-5"> 
                                 <div>
                                     <h3 class="text-center">Who Uses AuthentiPal?</h3>
                                     <p class="text-center">
                                         •	Sneaker Collectors <br>
-                                      •	Sneaker Resellers <br>
-                                      • Retailers <br>
-                    
-                                      <br>
+                                        •	Sneaker Resellers <br>
+                                        • Retailers <br>
                     
                                       If you are buying or selling on EBay, Instagram, Depop,
                                       or any other platform, “AuthentiPal” helps you make a safer
@@ -123,16 +123,16 @@
                     </div>
 
                     <div class="carousel-item" data-bs-interval="5500">
-                        <div class="row container">
-                            <div class="col-lg-6"> 
-                                <img src="Assets\Images\landingPageBg.png" class="img-fluid">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-12 col-sm-12 h-100 p-4"> 
+                                <img src="Assets\Images\landingPageBg.png" class="img-fluid m-0">
                             </div>
-                            <div class="col-lg-6"> 
+                            <div class="col-lg-5 col-md-12 col-sm-12 pt-lg-5 mt-lg-5"> 
                                 <div class="introDetails">
                                     <h3 class="text-center">Here’s what our customers think...</h3>
                                     <br>
                                     <p class="text-center">
-                                        “Cool stuff” 
+                                    “Cool stuff” 
                                       Adrian
                     
                                       <br><br><br> 
@@ -147,100 +147,70 @@
 
                 </div>
             </div>
-        </div>
-
-        <div class="container pt-4">
-            <div class="d-grid gap-3 col-4 mx-auto bottom">
-              <button class="btn btn-outline-dark launchButton" type="button" onclick="location.href ='https://183f34b1.kickoffpages.com/'">Join Waitlist</button>
+            <div class="d-grid gap-4 col-lg-4 col-md-6 col-sm-6 mx-auto">
+                <button class="btn btn-outline-dark launchButton" type="button" onclick="location.href ='https://183f34b1.kickoffpages.com/'">Join Waitlist</button>
             </div>
         </div>
 
-        <br><br><br>
-
         <!-- Why AuthentiPal? -->
-        <div class="container px-4">
+        <div class="container">
 
-            <h2 class="text-center">Why Authentipal?</h2>
+            <h2 class="text-center pt-4">Why Authentipal?</h2>
 
             <!-- for sellers -->
-            <br><br>
-            <div class="row gx-4">
+            <div class="row pt-3">
+                <h3 class="text-center pt-3">For Sellers</h3>
 
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <img src="Assets\Images\graphic1.png" class="img-fluid">
+                <div class="row pt-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <h5>Build trust and sell with confidence</h5>
+                        <p>Boost your business and gain new customers by selling guaranteed authentic products. Let’s protect the brands we love together!</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <h5>More sales, more profit!</h5>         
+                        <p>Avoid added fees and slower shipping times, by selling directly to your customers with proven authenticity. We know, the fees can be too much fam!</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <h5>Faster and affordable authentication service</h5>               
+                        <p>AuthentiPal provides faster and cheaper authentications to help you make safer decisions when buying sneakers. Plus you get to save for other things (aka shipping costs)</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <h5>Peace of mind for your buyers</h5>                   
+                        <p>AuthentiPal offers an authenticity certificate and a unique authentication code with every authentication, which shows a history of the sneaker’s authentications and pictures.</p>
+                    </div>
                 </div>
+            </div>
 
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <br>
-                    <h3>For Sellers</h3>
-
-                    <br>
-                    <h5>Build trust and sell with confidence</h5>
-                    <br>
-                    
-                    <p>Boost your business and gain new customers by selling guaranteed authentic products. Let’s protect the brands we love together! <br><br>
-
-                    If a buyer asks, just send them the QR code and they can confirm authenticity
-                    (in case of fraud, we have to have a way to show the person is the legitimate owner of the QR code)</p>
-                    <br>
-
-                    <h5>More sales, more profit!</h5>
-                    <br>
-                    
-                    <p>Avoid added fees and slower shipping times, by selling directly to your customers with proven authenticity. We know, the fees can be too much fam!</p>
-                    <br>
-
-                    <h5>Faster and affordable authentication service</h5>
-                    <br>
-                    
-                    <p>AuthentiPal provides faster and cheaper authentications to help you make safer decisions when buying sneakers. Plus you get to save for other things (aka shipping costs)</p>
-                    <br>
-                    
-                    <h5>Peace of mind for your buyers</h5>
-                    <br>
-                    
-                    <p>Let’s help you bring peace of mind to your customers. AuthentiPal offers an authenticity certificate and a unique authentication code, with every authentication, which shows a history of the sneaker’s authentications and pictures.<br><br>
-                    You can easily display your unique authentication code on your website or share it with your customer, whenever they ask. 
-                    </p>
-
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <img src="Assets\Images\graphic1.png" class="img-fluid mx-0 mt-4 mb-4">
                 </div>
+                <div class="col-lg-3 col-md-3 col-sm-3"></div>
             </div>
 
             <!-- for buyers -->
-            <br><br>
-            <div class="row gx-4">
+            <div class="row pt-3">
+                <h3 class="text-center pt-3">For Buyers</h3>
 
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <img src="Assets\Images\graphic1.png" class="img-fluid">
+                <div class="row pt-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <h5>Peace of mind</h5>
+                        <p>You can step better, knowing your sneaker collection is legit and in check. Plus we offer a certificate of authenticity, with every authentication to  showcase your authentic collection</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <h5>Affordable, reliable and faster  authentications!</h5>         
+                        <p>We legit check your sneakers faster, and for an affordable fee. Try us and see for yourself.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <h5>Faster and affordable authentication service</h5>               
+                        <p>AuthentiPal provides faster and cheaper authentications to help you make safer decisions when buying sneakers. Plus you get to save for other things (aka shipping costs)</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <h5>Shop safely and confidently.</h5>                   
+                        <p>Avoid added fees and slow shipping times when you shop with our trusted retailers and resellers, who pre-authenticate all items with us before listing them for sale.</p>
+                    </div>
                 </div>
-
-                <div class="col-lg-6 col-md-12 col-sm-12 rightCol">
-                    <br>
-                    <h3>For Buyers</h3>
-                    
-                    <br>
-                    <h5>Peace of mind</h5>
-                    <br>
-
-                    You can step better, knowing your sneaker collection is legit and in check <br>
-                    Plus we offer a certificate of authenticity, with every authentication to  showcase your authentic collection</p>
-                    <br>
-
-                    <h5>Affordable, reliable and faster  authentications! </h5>
-                    <br>
-                    
-                    <p>We legit check your sneakers faster, and for an affordable fee. Try us and see for yourself.</p>
-                    <br>
-
-                    <h5>Shop safely and confidently.</h5>
-                    <br>
-                    
-                    <p>Avoid added fees and slow shipping times when you shop with our trusted retailers and resellers, who pre-authenticate all items with us before listing them for sale.<br>
-                    Alternatively, if you are shopping on other platforms, you can easily and quickly  authenticate with us to make a safer, more informed decision (or claim that refund).
-                    </p>
-                    <br>
-                </div>
-
             </div>
 
         </div>
